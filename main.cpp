@@ -35,7 +35,7 @@ GLuint createShaderProgram()
 	glCompileShader(vShader);
 	glCompileShader(fShader);
 
-	// Creat a program and then attach and link the vertex and fragment shader
+	// Create a program and then attach and link the vertex and fragment shader
 	GLuint vfProgram = glCreateProgram();
 	glAttachShader(vfProgram, vShader);
 	glAttachShader(vfProgram, fShader);
