@@ -9,7 +9,7 @@ using namespace std;
 GLuint renderingProgram;
 GLuint vao[numVAOs];
 
-// Create the shader shader program (vertex and fragment)
+// Create the shader program (vertex and fragment)
 GLuint createShaderProgram()
 {
 	// Vertex shader for position
